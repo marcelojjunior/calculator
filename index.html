@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1 class="nameCalculator">CALCULADORA</h1>
+        <form action="#" name="Calculator" class="calculator">
+            <input disabled type="text" class="visor" name="visor">
+            <div class="line">
+                <input type="button" name="number7" class="number" onclick="display(number7.value)" value="7">
+                <input type="button" name="number8" class="number" onclick="display(number8.value)" value="8">
+                <input type="button" name="number9" class="number" onclick="display(number9.value)" value="9">
+                <input type="button" name="operatorDiv" class="operator" onclick="display(operatorDiv.value)" value="/">
+            </div>
+            <div class="line">
+                <input type="button" name="number4" class="number" onclick="display(number4.value)" value="4">
+                <input type="button" name="number5" class="number" onclick="display(number5.value)" value="5">
+                <input type="button" name="number6" class="number" onclick="display(number6.value)" value="6">
+                <input type="button" name="operatorMulti" class="operator" onclick="display(operatorMulti.value)" value="*">
+            </div>
+            <div class="line">
+                <input type="button" name="number1" class="number" onclick="display(number1.value)" value="1">
+                <input type="button" name="number2" class="number" onclick="display(number2.value)" value="2">
+                <input type="button" name="number3" class="number" onclick="display(number3.value)" value="3">
+                <input type="button" name="operatorMinus" class="operator" onclick="display(operatorMinus.value)" value="-">
+            </div>
+            <div class="line">
+                <input type="reset" name="clear" class="operator" value="C">
+                <input type="button" name="number0" class="number" onclick="display(number0.value)" value="0">
+                <input type="button" name="calc" class="operator" onclick="evaluateExpression(calc.value)" value="=">
+                <input type="button" name="operatorAdd" class="operator" onclick="display(operatorAdd.value)" value="+">
+            </div>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
