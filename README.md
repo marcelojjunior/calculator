@@ -5,7 +5,7 @@ Calculadora usando HTML, CSS e JavaScript.
 
 <p align="left">
 <code>
-<img src="/images/screenshotNotebook" height="200px">
+<img src="/images/screenshotNotebook.png" height="200px">
 </code>
 </p>
  
