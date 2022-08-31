@@ -1,11 +1,12 @@
 # Calculadora
-Calculadora usando HTML, CSS e JavaScript.
+Calculadora usando HTML, CSS e JavaScript. 
  
 ## 📱 Prints
 
 <p align="left">
 <code>
-<img src="/images/screenshotNotebook.png" height="200px">
+<img src="/images/CalculatorThemeLight.png" height="200px">
+<img src="/images/CalculatorThemeDark.png" height="200px">
 </code>
 </p>
  
